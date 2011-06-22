@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/server_address_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:padding="10sp">
+        <TextView android:id="@+id/describer_ip_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_ip_address_setting" android:textSize="18sp"></TextView>
+        <TextView android:text="TextView" android:id="@+id/data_ip_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/server_port_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:padding="10sp">
+        <TextView android:id="@+id/describer_port_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_port_number_setting" android:textSize="18sp"></TextView>
+        <TextView android:text="TextView" android:id="@+id/data_port_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+    </LinearLayout>
+    <WebView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/web_results"></WebView>
+    
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PreferenceTestActivity!</string>
+    <string name="app_name">Wearable Live Search</string>
+    <string name="title_server_setting_category">Server Settings</string>
+    <string name="title_ip_address_setting">IP Address: </string>
+    <string name="summary_ip_address_setting">Change server ip address</string>
+    <string name="title_port_number_setting">Port Number: </string>
+    <string name="summary_port_number_setting">Change server port number</string>
+    <string name="connect_button_text">Connect</string>
+    <string name="default_ip_address_setting">129.21.57.128</string>
+    <string name="default_port_number_setting">4444</string>
+    <string name="label_connection_activity">Server Connection</string>
+</resources>

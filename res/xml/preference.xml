@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_server_setting_category">
+        <EditTextPreference android:summary="@string/summary_ip_address_setting" android:title="@string/title_ip_address_setting" android:defaultValue="@string/default_ip_address_setting" android:key="ip_address"></EditTextPreference>
+        <EditTextPreference android:summary="@string/summary_port_number_setting" 
+        	android:title="@string/title_port_number_setting" 
+        	android:defaultValue="@string/default_port_number_setting"
+        	android:inputType="number" android:key="port_number">
+        </EditTextPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
